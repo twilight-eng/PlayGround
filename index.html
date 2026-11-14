@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="theme-color" content="#17251d"><title>Eldoria — The Lost Realms</title><link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="theme-color" content="#17251d"><title>Eldoria — The Lost Realms</title><link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">  <script type="module" crossorigin src="./assets/index-DpKLC-BM.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CsC1iVGP.css">
+</head>
 <body><div id="game"><canvas id="world"></canvas>
 <div class="grain"></div>
 <header class="topbar"><div class="brand"><span class="brand-mark">✦</span><span>ELDORIA<small>THE LOST REALMS</small></span></div><div class="region"><span class="region-line"></span><span>THE GREENWARD</span><span class="region-line"></span></div><div class="top-actions"><button id="mapBtn" class="icon-btn" aria-label="Map">⌖</button><button id="settingsBtn" class="icon-btn" aria-label="Settings">⚙</button></div></header>
@@ -14,4 +16,4 @@
 <div class="modal hidden" id="settings"><div class="modal-card"><button class="close" data-close>×</button><div class="modal-kicker">FIELD SETTINGS</div><h2>Journey options</h2><label>Graphics quality<select id="quality"><option>Low</option><option selected>Medium</option><option>High</option><option>Ultra</option></select></label><label>Render scale <span id="scaleValue">100%</span><input id="resolution" type="range" min="60" max="100" value="100"></label><div class="modal-row"><button id="saveBtn">SAVE JOURNEY</button><button id="loadBtn">LOAD JOURNEY</button></div><p>Progress saves locally in this browser.</p></div></div>
 <div class="modal hidden" id="mapModal"><div class="modal-card map-card"><button class="close" data-close>×</button><div class="modal-kicker">THE NORTHERN MARCHES</div><h2>Greenward</h2><div class="map-art"><span class="map-river"></span><span class="map-pin village-pin">✦<small>WILLOWMEAD</small></span><span class="map-pin ruin-pin">⌂<small>OLD WATCH</small></span><span class="map-pin player-pin">▲<small>YOU</small></span><span class="map-forest">♣ ♣ ♣ ♣</span><span class="map-mountain">⌃　⌃　⌃</span></div><p>Beyond the river, old stones remember a forgotten age.</p></div></div>
 <div id="combatFlash"></div>
-</div><script type="module" src="/src/main.js"></script></body></html>
+</div></body></html>
